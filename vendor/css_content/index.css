@@ -1,6 +1,6 @@
 @font-face {
-  font-family: pizza;
-  src: url('vendor/font/pizza.ttf');
+  font-family: 'italian';
+  src: url('../font/italian.ttf');
 }
 
 * {
@@ -23,6 +23,24 @@ main.template {
   code for navbar
 
 */
+
+.nav-container {
+  background: rgba(0, 0, 0, 0.5);
+  /* height: 70px; */
+  padding: 0.5em;
+}
+
+.nav-container .nav-item {
+  text-transform: capitalize;
+  font-family: 'italian', Arial, sans-serif;
+  font-size: 2.5em;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.nav-item span.kata {
+  color: rgb(235, 125, 0);
+}
 
 /* 
 
