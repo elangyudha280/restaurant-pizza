@@ -101,7 +101,6 @@ span.kata {
   filter: contrast(1.2) brightness(0.8);
 }
 .jumbotron-container .c-jumbotron {
-  border: 2px solid cyan;
   z-index: 5;
   position: relative;
   padding: 1em 0;
@@ -231,9 +230,9 @@ span.type-text {
 @media only screen and (max-height:600px){
   
 .jumbotron-container {
-  border:1px solid red;
   height: 800px;
 }
+
 }
 
 /* 
