@@ -17,9 +17,11 @@
 
         <nav class="navbar nav-container fixed-top">
             <div class="container">
-              <span class="navbar-brand mb-0 h1 mx-auto nav-item"> 
-                <span class="kata">l</span>a <span class="kata">n</span>ostra <span class="kata">p</span>izza
-              </span>
+              <a href="#" class="mx-auto text-light a-nav">
+                <span class="navbar-brand mb-0 h1 nav-item"> 
+                  <span class="kata">l</span>a <span class="kata">n</span>ostra <span class="kata">p</span>izza
+                </span>
+              </a>
             </div>
           </nav>
 
@@ -29,7 +31,7 @@
         <!-- code for jumbotron -->
 
         <div class="jumbotron-container">
-          <img src="vendor/img/pizza/pizza_slice_bg.png" alt="" class="slice-img-jumbotron">
+          <img src="vendor/img/pizza/pizza_slice_bg.png" alt="pizza_topping_png" class="slice-img-jumbotron">
           <div class="container c-jumbotron">
             <h3 class="display-4 h3-judul"><span class="kata">l</span>a <span class="kata">n</span>ostra <span class="kata">p</span>izza</h3>
             <p class="desc-jumbotron">thin italian crust whit tender chicken,mushroom,tomatoes,mozzarella</span>
@@ -37,18 +39,44 @@
               class="cursor typing ">|</span>
             </p>
           
-            <a href="#"  class="btn btn-jumbotron">Our Menu</a>
+            <a href="#c-menu"  class="btn btn-jumbotron">Our Menu</a>
           </div>
         </div>
 
         <!-- end code for jumbotron -->
+      
+
+        <!-- code for menu -->
+
+        <div class="container c-menu" id="c-menu">
+          <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+              <a class="navbar-brand nav-menu" href="#">Menu</a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link "ref="#">all menu</a>
+                  <a class="nav-link "ref="#">pizza</a>
+                  <a class="nav-link" href="#">pasta</a>
+                  <a class="nav-link" href="#">chicken</a>
+                  <a class="nav-link " href="#">drink</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      
+
+        <!-- end code for menu -->
     </main>
 
 
 
 
     <script src="vendor/js/bootstrap.min.js"></script>
-    <script src="vendor/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="vendor/js/bootstrap.bundle.min.js"></script> -->
     <script src="vendor/js_content/index.js"></script>
 </body>
 </html>
