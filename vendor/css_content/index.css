@@ -4,6 +4,10 @@
   font-family: 'italian';
   src: url('../font/italian.ttf');
 }
+@font-face {
+  font-family: 'pizzaria';
+  src: url('../font/PIZZARIA.ttf');
+}
 
 * {
   margin: 0;
@@ -194,7 +198,7 @@ span.type-text {
   font-weight: bold;
   font-size: 2em;
   letter-spacing: 1px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'pizzaria', sans-serif;
 }
 
 .c-menu .nav-link {
@@ -247,6 +251,13 @@ span.type-text {
   height: 100%;
   object-fit: cover;
   object-position: right;
+}
+.menu-item .nama-menu {
+  margin-top: 1em;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'pizzaria', sans-serif;
+  text-transform: capitalize;
 }
 /* 
 
