@@ -252,12 +252,28 @@ span.type-text {
   object-fit: cover;
   object-position: right;
 }
-.menu-item .nama-menu {
-  margin-top: 1em;
+
+.menu-item .desc-menu {
+  width: 100%;
+  height: 100%;
+  border: 1px solid orange;
+  padding: 1em 0.5em;
+}
+
+.desc-menu .nama-menu {
   color: #fff;
   letter-spacing: 1px;
+  font-size: 1.5em;
   font-family: 'pizzaria', sans-serif;
   text-transform: capitalize;
+}
+.desc-menu .deskripsi-menu-item {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-family: 'Poppins', sans-serif;
+}
+.desc-menu .harga-menu-item {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-family: 'Poppins', sans-serif;
 }
 /* 
 
