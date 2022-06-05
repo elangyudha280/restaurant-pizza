@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // code untuk mengambil data dari file JSON
-console.log(1)
+// 1.buat fungsi untuk ambil semua data pada menu
 function dataAllMenu(){
     let menu_all  = fetch('pizza.json').then(e => {return e.json()}).then(el => {
         let fragment_tag_menu_item = ``;
@@ -77,27 +77,30 @@ function dataAllMenu(){
     })
     return menu_all;
 }
-// 1.seleksi element container yaitu .menu-template 
+dataAllMenu()
+
+// 2.seleksi element container yaitu .menu-template 
 let menu_template = document.querySelector('.menu-template');
 
 let nav_menu = document.querySelectorAll('.nav-menu');
-// 2.lakukan looping untuk element dengan class .nav-menu
+
+// 3.lakukan looping untuk element dengan class .nav-menu
 nav_menu.forEach(function(el){
     el.addEventListener('click',function(e){
         e.preventDefault()
         let target = e.target.textContent;
     
-        // 3.ambil data dari json menggunakan fetch
+        // 4.ambil data dari json menggunakan fetch
             fetch('pizza.json')
             .then(e => {return e.json()})
             .then(function(e) {
                    let obj_menu = e.menu;
                    let fragment_tag_menu_item = ``
                        
-                //    4.looping data pada json
+                //   5.looping data pada json
                     obj_menu.forEach(element => {
-                        // 5.cek apakah nav menu yang di klik sama dengan katergi data json
-                            // 6.jika target.textContent ==== property kategory
+                        // 6.cek apakah nav menu yang di klik sama dengan katergi data json
+                            // 7.jika target.textContent ==== property kategory
                         if(target === element.kategori){
                            
                             fragment_tag_menu_item += `
@@ -123,7 +126,7 @@ nav_menu.forEach(function(el){
                             </div>`;
                             menu_template.innerHTML = fragment_tag_menu_item;
                         }
-                        // 7.cek jika user memilih / mengclick  kategori all menu di nav menu
+                        // 8.cek jika user memilih / mengclick  kategori all menu di nav menu
                          if(target === 'all menu'){
                             dataAllMenu()
                         }
