@@ -42,3 +42,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // END CODE TYPING CODE
+
+
+// code untuk mengambil data dari file JSON
+
+// 1.seleksi element container yaitu .menu-template 
+let menu_template = document.querySelector('.menu-template');
+
