@@ -229,14 +229,9 @@ span.type-text {
   overflow: auto;
 }
 
-.menu-template .menu-item {
+.menu-template .card-menu {
   position: relative;
-  padding-bottom: 0.9em;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  border-radius: 0.5em;
+
   background: rgba(52, 59, 77, 0.2);
 }
 
@@ -247,48 +242,40 @@ span.type-text {
 
   user-select: none;
 }
-.gambar-pizza .gambar-pizza-item {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
 
-.menu-item .desc-menu {
-  width: 100%;
-  height: 225px;
-  overflow-y: auto;
-  padding: 1em 1em;
-}
-
-.desc-menu .nama-menu {
+.card-menu .nama-menu {
   color: #fff;
   letter-spacing: 1px;
   font-size: 1.5em;
   font-family: 'pizzaria', sans-serif;
   text-transform: capitalize;
 }
-.desc-menu .deskripsi-menu-item {
+.card-menu .deskripsi-menu {
   color: hsla(0, 0%, 100%, 0.5);
   font-family: 'Poppins', sans-serif;
+  height: 75px;
+  overflow: auto;
 }
-.desc-menu .harga-menu-item {
+.card-menu .harga-menu-item {
   color: hsla(0, 0%, 100%, 1);
   font-family: 'Poppins', sans-serif;
+  margin-top: -0.5em;
 }
-.desc-menu .btn-template-order {
+.card-menu .btn-template-order {
   width: 100%;
   display: grid;
   place-items: center;
+  margin-top: -0.6em;
 }
-.desc-menu .btn-order {
+.card-menu .btn-order {
   font-family: 'Poppins', sans-serif;
   background: rgb(243, 71, 71);
   color: #fff;
   border-radius: 2em;
+
   padding: 0.5em 1.2em;
   text-align: center;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .btn-order:active {
   transform: scale(0.9);
@@ -442,16 +429,16 @@ body::-webkit-scrollbar-thumb {
   border-radius: 0.7em;
 }
 
-.desc-menu::-webkit-scrollbar {
+.deskripsi-menu::-webkit-scrollbar {
   width: 0.5em;
   background: transparent;
   border-radius: 0.5em;
 }
-.desc-menu::-webkit-scrollbar-track {
+.deskripsi-menu::-webkit-scrollbar-track {
   background: transparent;
   padding: 1em;
 }
-.desc-menu::-webkit-scrollbar-thumb {
+.deskripsi-menu::-webkit-scrollbar-thumb {
   background-color: #fa7101;
   border-radius: 0.7em;
 }
