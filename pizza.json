@@ -73,35 +73,35 @@
         {
             "kategori": "minuman",
             "nama": "Choco Mint",
-            "deskripsi": "",
+            "deskripsi": "perpaduan antara coklat dan mint  dicampur dengan susu dan eskirim diatasnya.",
             "harga": "24,000",
             "gambar": "choco-mint.jpg"
         },
         {
             "kategori": "minuman",
             "nama": "Toffee Coffee",
-            "deskripsi": "",
+            "deskripsi": "kopi dengan bahan dasar kopi kualitas terbaik dikelasnya. dengan campuran antara biji kopi java, mocha dan toraja kalosi yang sudah terkenal akan rasanya.",
             "harga": "24,000",
             "gambar": "toffee-coffee.jpg"
         },
         {
             "kategori": "minuman",
             "nama": "Green Tea Shake",
-            "deskripsi": "",
+            "deskripsi": "Green Tea Shake memadukan teh hijau (matcha) dengan susu, krim kocok. Aromanya ringan dengan sensasi dingin yang menyegarkan.",
             "harga": "24,000",
             "gambar": "green-tea-shake.jpg"
         },
         {
             "kategori": "minuman",
             "nama": "Strawberry Milkshake",
-            "deskripsi": "",
+            "deskripsi": "Strawberry Milkshake memadukan strawberry dengan susu, krim kocok. Aromanya ringan dengan sensasi dingin yang menyegarkan.",
             "harga": "24,000",
             "gambar": "strawberry-milkshake.jpg"
         },
         {
             "kategori": "minuman",
             "nama": "Chocolate Milkshake",
-            "deskripsi": "",
+            "deskripsi": "Chocolate Milkshake memadukan coklat dengan susu, krim kocok. Aromanya ringan dengan sensasi dingin yang menyegarkan.",
             "harga": "24,000",
             "gambar": "chocolate-milkshake.jpg"
         }
